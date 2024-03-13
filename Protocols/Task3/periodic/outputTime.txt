@@ -1,0 +1,267 @@
+2) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI�� Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Labe�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7056
+load:0x40078000,len:15396
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3660
+entry 0x40080620
+[0;32mI (31) boot: ESP-IDF v5.1-dev-4051-g4f0769d2ed-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 21 2023 17:22:53[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=08a04h ( 35332) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=00018a2c vaddr=3ffb0000 size=0165ch (  5724) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a090 vaddr=40080000 size=05f88h ( 24456) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16700h ( 91904) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=00036728 vaddr=40085f88 size=04c64h ( 19556) load[0m
+[0;32mI (179) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (179) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Pro cpu up.[0m
+[0;32mI (191) cpu_start: Single core mode[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (206) cpu_start: Project name:     periodic[0m
+[0;32mI (211) cpu_start: App version:      9c58e71-dirty[0m
+[0;32mI (217) cpu_start: Compile time:     Jul 15 2023 12:09:49[0m
+[0;32mI (223) cpu_start: ELF file SHA256:  3dab6bd207bc2444...[0m
+[0;32mI (229) cpu_start: ESP-IDF:          v5.1-dev-4051-g4f0769d2ed-dirty[0m
+[0;32mI (236) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (240) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (245) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (250) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (257) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFB2430 len 0002DBD0 (182 KiB): DRAM[0m
+[0;32mI (269) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (282) heap_init: At 4008ABEC len 00015414 (85 KiB): IRAM[0m
+[0;32mI (288) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (299) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) cpu_start: Starting scheduler on PRO CPU.[0m
+[INFO] Application entry point found
+[INFO] Periodic application task scheduler invoked
+[INFO] Schedule Data Gathered. Printing data......
+Tick 0: 3
+Tick 1: 3
+Tick 2: 3
+Tick 3: 3
+Tick 4: 3
+Tick 5: 3
+Tick 6: 3
+Tick 7: 3
+Tick 8: 3
+Tick 9: 3
+Tick 10: 4
+Tick 11: 4
+Tick 12: 5
+Tick 13: 5
+Tick 14: 5
+Tick 15: 3
+Tick 16: 3
+Tick 17: 3
+Tick 18: 3
+Tick 19: 3
+Tick 20: 4
+Tick 21: 4
+Tick 22: 5
+Tick 23: 5
+Tick 24: 5
+Tick 25: 3
+Tick 26: 3
+Tick 27: 3
+Tick 28: 3
+Tick 29: 3
+Tick 30: 4
+Tick 31: 4
+Tick 32: 5
+Tick 33: 5
+Tick 34: 5
+Tick 35: 3
+Tick 36: 3
+Tick 37: 3
+Tick 38: 3
+Tick 39: 3
+Tick 40: 4
+Tick 41: 4
+Tick 42: 5
+Tick 43: 5
+Tick 44: 5
+Tick 45: 3
+Tick 46: 3
+Tick 47: 3
+Tick 48: 3
+Tick 49: 3
+Tick 50: 4
+Tick 51: 4
+Tick 52: 5
+Tick 53: 5
+Tick 54: 5
+Tick 55: 3
+Tick 56: 3
+Tick 57: 3
+Tick 58: 3
+Tick 59: 3
+Tick 60: 4
+Tick 61: 4
+Tick 62: 5
+Tick 63: 5
+Tick 64: 5
+Tick 65: 3
+Tick 66: 3
+Tick 67: 3
+Tick 68: 3
+Tick 69: 3
+Tick 70: 4
+Tick 71: 4
+Tick 72: 5
+Tick 73: 5
+Tick 74: 5
+Tick 75: 3
+Tick 76: 3
+Tick 77: 3
+Tick 78: 3
+Tick 79: 3
+Tick 80: 4
+Tick 81: 4
+Tick 82: 5
+Tick 83: 5
+Tick 84: 5
+Tick 85: 3
+Tick 86: 3
+Tick 87: 3
+Tick 88: 3
+Tick 89: 3
+Tick 90: 4
+Tick 91: 4
+Tick 92: 5
+Tick 93: 5
+Tick 94: 5
+Tick 95: 3
+Tick 96: 3
+Tick 97: 3
+Tick 98: 3
+Tick 99: 3
+Tick 100: 4
+Tick 101: 4
+Tick 102: 5
+Tick 103: 5
+Tick 104: 5
+Tick 105: 3
+Tick 106: 3
+Tick 107: 3
+Tick 108: 3
+Tick 109: 3
+Tick 110: 4
+Tick 111: 4
+Tick 112: 5
+Tick 113: 5
+Tick 114: 5
+Tick 115: 3
+Tick 116: 3
+Tick 117: 3
+Tick 118: 3
+Tick 119: 3
+Tick 120: 4
+Tick 121: 4
+Tick 122: 5
+Tick 123: 5
+Tick 124: 5
+Tick 125: 3
+Tick 126: 3
+Tick 127: 3
+Tick 128: 3
+Tick 129: 3
+Tick 130: 4
+Tick 131: 4
+Tick 132: 5
+Tick 133: 5
+Tick 134: 5
+Tick 135: 3
+Tick 136: 3
+Tick 137: 3
+Tick 138: 3
+Tick 139: 3
+Tick 140: 4
+Tick 141: 4
+Tick 142: 5
+Tick 143: 5
+Tick 144: 5
+Tick 145: 3
+Tick 146: 3
+Tick 147: 3
+Tick 148: 3
+Tick 149: 3
+Tick 150: 4
+Tick 151: 4
+Tick 152: 5
+Tick 153: 5
+Tick 154: 5
+Tick 155: 3
+Tick 156: 3
+Tick 157: 3
+Tick 158: 3
+Tick 159: 3
+Tick 160: 4
+Tick 161: 4
+Tick 162: 5
+Tick 163: 5
+Tick 164: 5
+Tick 165: 3
+Tick 166: 3
+Tick 167: 3
+Tick 168: 3
+Tick 169: 3
+Tick 170: 4
+Tick 171: 4
+Tick 172: 5
+Tick 173: 5
+Tick 174: 5
+Tick 175: 3
+Tick 176: 3
+Tick 177: 3
+Tick 178: 3
+Tick 179: 3
+Tick 180: 4
+Tick 181: 4
+Tick 182: 5
+Tick 183: 5
+Tick 184: 5
+Tick 185: 3
+Tick 186: 3
+Tick 187: 3
+Tick 188: 3
+Tick 189: 3
+Tick 190: 4
+Tick 191: 4
+Tick 192: 5
+Tick 193: 5
+Tick 194: 5
+Tick 195: 3
+Tick 196: 3
+Tick 197: 3
+Tick 198: 3
+Tick 199: 3
+
+[INFO] Schedule printed!!!
+Executing action: monitor
+Running idf_monitor in directory /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic
+Executing "/Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python /Users/akashjohnsubash/esp/esp-idf/tools/idf_monitor.py -p /dev/tty.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/periodic.elf -m '/Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python' '/Users/akashjohnsubash/esp/esp-idf/tools/idf.py' '-p' '/dev/tty.usbserial-0001'"...

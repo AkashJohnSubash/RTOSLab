@@ -1,0 +1,54 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/sdkconfig
+Loading defaults file /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/sdkconfig.defaults...
+-- App "periodic" version: f0e2a38-dirty
+-- Adding linker script /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/akashjohnsubash/esp/esp-idf/components/app_trace /Users/akashjohnsubash/esp/esp-idf/components/app_update /Users/akashjohnsubash/esp/esp-idf/components/bootloader /Users/akashjohnsubash/esp/esp-idf/components/bootloader_support /Users/akashjohnsubash/esp/esp-idf/components/bt /Users/akashjohnsubash/esp/esp-idf/components/cmock /Users/akashjohnsubash/esp/esp-idf/components/console /Users/akashjohnsubash/esp/esp-idf/components/cxx /Users/akashjohnsubash/esp/esp-idf/components/driver /Users/akashjohnsubash/esp/esp-idf/components/efuse /Users/akashjohnsubash/esp/esp-idf/components/esp-tls /Users/akashjohnsubash/esp/esp-idf/components/esp_adc /Users/akashjohnsubash/esp/esp-idf/components/esp_app_format /Users/akashjohnsubash/esp/esp-idf/components/esp_coex /Users/akashjohnsubash/esp/esp-idf/components/esp_common /Users/akashjohnsubash/esp/esp-idf/components/esp_eth /Users/akashjohnsubash/esp/esp-idf/components/esp_event /Users/akashjohnsubash/esp/esp-idf/components/esp_gdbstub /Users/akashjohnsubash/esp/esp-idf/components/esp_hid /Users/akashjohnsubash/esp/esp-idf/components/esp_http_client /Users/akashjohnsubash/esp/esp-idf/components/esp_http_server /Users/akashjohnsubash/esp/esp-idf/components/esp_https_ota /Users/akashjohnsubash/esp/esp-idf/components/esp_https_server /Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support /Users/akashjohnsubash/esp/esp-idf/components/esp_lcd /Users/akashjohnsubash/esp/esp-idf/components/esp_local_ctrl /Users/akashjohnsubash/esp/esp-idf/components/esp_mm /Users/akashjohnsubash/esp/esp-idf/components/esp_netif /Users/akashjohnsubash/esp/esp-idf/components/esp_netif_stack /Users/akashjohnsubash/esp/esp-idf/components/esp_partition /Users/akashjohnsubash/esp/esp-idf/components/esp_phy /Users/akashjohnsubash/esp/esp-idf/components/esp_pm /Users/akashjohnsubash/esp/esp-idf/components/esp_psram /Users/akashjohnsubash/esp/esp-idf/components/esp_ringbuf /Users/akashjohnsubash/esp/esp-idf/components/esp_rom /Users/akashjohnsubash/esp/esp-idf/components/esp_system /Users/akashjohnsubash/esp/esp-idf/components/esp_timer /Users/akashjohnsubash/esp/esp-idf/components/esp_wifi /Users/akashjohnsubash/esp/esp-idf/components/espcoredump /Users/akashjohnsubash/esp/esp-idf/components/esptool_py /Users/akashjohnsubash/esp/esp-idf/components/fatfs /Users/akashjohnsubash/esp/esp-idf/components/freertos /Users/akashjohnsubash/esp/esp-idf/components/hal /Users/akashjohnsubash/esp/esp-idf/components/heap /Users/akashjohnsubash/esp/esp-idf/components/http_parser /Users/akashjohnsubash/esp/esp-idf/components/idf_test /Users/akashjohnsubash/esp/esp-idf/components/ieee802154 /Users/akashjohnsubash/esp/esp-idf/components/json /Users/akashjohnsubash/esp/esp-idf/components/log /Users/akashjohnsubash/esp/esp-idf/components/lwip /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/main /Users/akashjohnsubash/esp/esp-idf/components/mbedtls /Users/akashjohnsubash/esp/esp-idf/components/mqtt /Users/akashjohnsubash/esp/esp-idf/components/newlib /Users/akashjohnsubash/esp/esp-idf/components/nvs_flash /Users/akashjohnsubash/esp/esp-idf/components/openthread /Users/akashjohnsubash/esp/esp-idf/components/partition_table /Users/akashjohnsubash/esp/esp-idf/components/perfmon /Users/akashjohnsubash/esp/esp-idf/components/protobuf-c /Users/akashjohnsubash/esp/esp-idf/components/protocomm /Users/akashjohnsubash/esp/esp-idf/components/pthread /Users/akashjohnsubash/esp/esp-idf/components/sdmmc /Users/akashjohnsubash/esp/esp-idf/components/soc /Users/akashjohnsubash/esp/esp-idf/components/spi_flash /Users/akashjohnsubash/esp/esp-idf/components/spiffs /Users/akashjohnsubash/esp/esp-idf/components/tcp_transport /Users/akashjohnsubash/esp/esp-idf/components/ulp /Users/akashjohnsubash/esp/esp-idf/components/unity /Users/akashjohnsubash/esp/esp-idf/components/usb /Users/akashjohnsubash/esp/esp-idf/components/vfs /Users/akashjohnsubash/esp/esp-idf/components/wear_levelling /Users/akashjohnsubash/esp/esp-idf/components/wifi_provisioning /Users/akashjohnsubash/esp/esp-idf/components/wpa_supplicant /Users/akashjohnsubash/esp/esp-idf/components/xtensa
+-- Configuring done (2.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build
+[1/9] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[2/9] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[3/9] Generating ld/sections.ld
+[4/9] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.1-dev-4051-g4f0769d2ed
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /Users/akashjohnsubash/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /Users/akashjohnsubash/esp/esp-idf/components/bootloader /Users/akashjohnsubash/esp/esp-idf/components/bootloader_support /Users/akashjohnsubash/esp/esp-idf/components/efuse /Users/akashjohnsubash/esp/esp-idf/components/esp_app_format /Users/akashjohnsubash/esp/esp-idf/components/esp_common /Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support /Users/akashjohnsubash/esp/esp-idf/components/esp_rom /Users/akashjohnsubash/esp/esp-idf/components/esp_system /Users/akashjohnsubash/esp/esp-idf/components/esptool_py /Users/akashjohnsubash/esp/esp-idf/components/freertos /Users/akashjohnsubash/esp/esp-idf/components/hal /Users/akashjohnsubash/esp/esp-idf/components/log /Users/akashjohnsubash/esp/esp-idf/components/bootloader/subproject/main /Users/akashjohnsubash/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/akashjohnsubash/esp/esp-idf/components/newlib /Users/akashjohnsubash/esp/esp-idf/components/partition_table /Users/akashjohnsubash/esp/esp-idf/components/soc /Users/akashjohnsubash/esp/esp-idf/components/spi_flash /Users/akashjohnsubash/esp/esp-idf/components/xtensa
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader
+[1/1] cd /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader/esp-idf/esptool_py && /Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python /Users/akashjohnsubash/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader/bootloader.bin
+Bootloader binary size 0x6660 bytes. 0x9a0 bytes (9%) free.
+[5/9] No install step for 'bootloader'
+[6/9] Completed 'bootloader'
+[7/9] Linking CXX executable periodic.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/periodic.bin
+[9/9] cd /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/esp-idf/esptool_py && /Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python /Users/akashjohnsubash/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/partition_table/partition-table.bin /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/periodic.bin
+periodic.bin binary size 0x2b430 bytes. Smallest app partition is 0x100000 bytes. 0xd4bd0 bytes (83%) free.

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

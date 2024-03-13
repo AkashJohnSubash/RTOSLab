@@ -1,0 +1,99 @@
+[1/607] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/akashjohnsubash/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+[2/607] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj
+[3/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+[4/607] Performing build step for 'bootloader'
+[1/1] cd /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader/esp-idf/esptool_py && /Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python /Users/akashjohnsubash/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/bootloader/bootloader.bin
+Bootloader binary size 0x6660 bytes. 0x9a0 bytes (9%) free.
+[5/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+[6/607] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/akashjohnsubash/esp/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
+[7/607] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/Users/akashjohnsubash/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
+[8/607] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/Users/akashjohnsubash/esp/esp-idf/components/mbedtls/port/net_sockets.c.obj
+[9/607] No install step for 'bootloader'
+[10/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+[11/607] Completed 'bootloader'
+[12/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+[13/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj
+[14/607] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj
+[15/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj
+[16/607] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+[17/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[18/607] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+[19/607] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+[20/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj
+[21/607] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj
+[22/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
+[23/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
+[24/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[25/607] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+[26/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj
+[27/607] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj
+[28/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt_impl_timergroup.c.obj
+[29/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c.obj
+[30/607] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
+[31/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/clk.c.obj
+[32/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj
+[33/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
+[34/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
+[35/607] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj
+[36/607] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj
+[37/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[38/607] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
+[39/607] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/multi_heap.c.obj
+[40/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
+[41/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
+[42/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
+[43/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
+[44/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/sar_periph_ctrl.c.obj
+[45/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj
+[46/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+FAILED: esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj 
+/Users/akashjohnsubash/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-4051-g4f0769d2ed-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/build/config -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/include -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/portable/xtensa -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/include/freertos -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/private_include -I/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/portable/priv_include -I/Users/akashjohnsubash/esp/esp-idf/components/newlib/platform_include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/akashjohnsubash/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/Users/akashjohnsubash/esp/esp-idf/components/heap/include -I/Users/akashjohnsubash/esp/esp-idf/components/log/include -I/Users/akashjohnsubash/esp/esp-idf/components/soc/include -I/Users/akashjohnsubash/esp/esp-idf/components/soc/esp32 -I/Users/akashjohnsubash/esp/esp-idf/components/soc/esp32/include -I/Users/akashjohnsubash/esp/esp-idf/components/hal/esp32/include -I/Users/akashjohnsubash/esp/esp-idf/components/hal/include -I/Users/akashjohnsubash/esp/esp-idf/components/hal/platform_port/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_rom/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/akashjohnsubash/esp/esp-idf/components/esp_rom/esp32 -I/Users/akashjohnsubash/esp/esp-idf/components/esp_common/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_system/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_system/port/soc -I/Users/akashjohnsubash/esp/esp-idf/components/esp_system/port/include/private -I/Users/akashjohnsubash/esp/esp-idf/components/xtensa/include -I/Users/akashjohnsubash/esp/esp-idf/components/xtensa/esp32/include -I/Users/akashjohnsubash/esp/esp-idf/components/esp_timer/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/include/apps -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/lwip/src/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/port/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/port/freertos/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/port/esp32xx/include -I/Users/akashjohnsubash/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/akashjohnsubash/esp/esp-idf/components/esp_pm/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic=. -fmacro-prefix-map=/Users/akashjohnsubash/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj -MF esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj.d -o esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj -c /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c
+In file included from /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:65,
+                 from /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:45:
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c: In function 'xTaskIncrementTick':
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:295:26: error: expected ']' before ';' token
+  295 | #define taskList_size 100;
+      |                          ^
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:297:21: note: in expansion of macro 'taskList_size'
+  297 | extern int taskList[taskList_size][2];\
+      |                     ^~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:3123:5: note: in expansion of macro 'traceTASK_INCREMENT_TICK'
+ 3123 |     traceTASK_INCREMENT_TICK( xTickCount );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:295:26: error: expected ')' before ';' token
+  295 | #define taskList_size 100;
+      |                          ^
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:299:13: note: in expansion of macro 'taskList_size'
+  299 | if(idx_gl < taskList_size)\
+      |             ^~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:3123:5: note: in expansion of macro 'traceTASK_INCREMENT_TICK'
+ 3123 |     traceTASK_INCREMENT_TICK( xTickCount );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:299:3: note: to match this '('
+  299 | if(idx_gl < taskList_size)\
+      |   ^
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:3123:5: note: in expansion of macro 'traceTASK_INCREMENT_TICK'
+ 3123 |     traceTASK_INCREMENT_TICK( xTickCount );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:301:1: error: 'taskList' undeclared (first use in this function); did you mean 'vTaskList'?
+  301 | taskList[idx_gl][0] = pxCurrentTCB[0]->uxTCBNumber;\
+      | ^~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:3123:5: note: in expansion of macro 'traceTASK_INCREMENT_TICK'
+ 3123 |     traceTASK_INCREMENT_TICK( xTickCount );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h:301:1: note: each undeclared identifier is reported only once for each function it appears in
+  301 | taskList[idx_gl][0] = pxCurrentTCB[0]->uxTCBNumber;\
+      | ^~~~~~~~
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task3/periodic/components/freertos/FreeRTOS-Kernel/tasks.c:3123:5: note: in expansion of macro 'traceTASK_INCREMENT_TICK'
+ 3123 |     traceTASK_INCREMENT_TICK( xTickCount );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+[47/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
+[48/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/croutine.c.obj
+[49/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-openocd.c.obj
+[50/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj
+[51/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+[52/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
+[53/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[54/607] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
+[55/607] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+ninja: build stopped: subcommand failed.

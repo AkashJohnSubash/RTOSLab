@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-45686e82d89aa81601512eb79fcf7d5b"}, "mark": "bar", "encoding": {"color": {"field": "Task", "legend": {"title": "Task/Setup Code"}, "type": "nominal"}, "x": {"field": "Tick Start", "type": "quantitative"}, "x2": {"field": "Tick End"}, "y": {"field": "Task", "type": "nominal"}}, "title": "FreeRTOS Schedule for 2 Tasks", "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-45686e82d89aa81601512eb79fcf7d5b": [{"Task": "Idle Task", "Tick Start": -1, "Tick End": 9}, {"Task": "Task 1", "Tick Start": 9, "Tick End": 11}, {"Task": "Task 2", "Tick Start": 11, "Tick End": 14}, {"Task": "Idle Task", "Tick Start": 14, "Tick End": 19}, {"Task": "Task 1", "Tick Start": 19, "Tick End": 21}, {"Task": "Task 2", "Tick Start": 21, "Tick End": 24}, {"Task": "Idle Task", "Tick Start": 24, "Tick End": 29}, {"Task": "Task 1", "Tick Start": 29, "Tick End": 31}, {"Task": "Task 2", "Tick Start": 31, "Tick End": 34}, {"Task": "Idle Task", "Tick Start": 34, "Tick End": 39}, {"Task": "Task 1", "Tick Start": 39, "Tick End": 41}, {"Task": "Task 2", "Tick Start": 41, "Tick End": 44}, {"Task": "Idle Task", "Tick Start": 44, "Tick End": 49}, {"Task": "Task 1", "Tick Start": 49, "Tick End": 51}, {"Task": "Task 2", "Tick Start": 51, "Tick End": 54}, {"Task": "Idle Task", "Tick Start": 54, "Tick End": 59}, {"Task": "Task 1", "Tick Start": 59, "Tick End": 61}, {"Task": "Task 2", "Tick Start": 61, "Tick End": 64}, {"Task": "Idle Task", "Tick Start": 64, "Tick End": 69}, {"Task": "Task 1", "Tick Start": 69, "Tick End": 71}, {"Task": "Task 2", "Tick Start": 71, "Tick End": 74}, {"Task": "Idle Task", "Tick Start": 74, "Tick End": 79}, {"Task": "Task 1", "Tick Start": 79, "Tick End": 81}, {"Task": "Task 2", "Tick Start": 81, "Tick End": 84}, {"Task": "Idle Task", "Tick Start": 84, "Tick End": 89}, {"Task": "Task 1", "Tick Start": 89, "Tick End": 91}, {"Task": "Task 2", "Tick Start": 91, "Tick End": 94}, {"Task": "Idle Task", "Tick Start": 94, "Tick End": 99}, {"Task": "Task 1", "Tick Start": 99, "Tick End": 101}, {"Task": "Task 2", "Tick Start": 101, "Tick End": 104}, {"Task": "Idle Task", "Tick Start": 104, "Tick End": 109}, {"Task": "Task 1", "Tick Start": 109, "Tick End": 111}, {"Task": "Task 2", "Tick Start": 111, "Tick End": 114}, {"Task": "Idle Task", "Tick Start": 114, "Tick End": 119}, {"Task": "Task 1", "Tick Start": 119, "Tick End": 121}, {"Task": "Task 2", "Tick Start": 121, "Tick End": 124}, {"Task": "Idle Task", "Tick Start": 124, "Tick End": 129}, {"Task": "Task 1", "Tick Start": 129, "Tick End": 131}, {"Task": "Task 2", "Tick Start": 131, "Tick End": 134}, {"Task": "Idle Task", "Tick Start": 134, "Tick End": 139}, {"Task": "Task 1", "Tick Start": 139, "Tick End": 141}, {"Task": "Task 2", "Tick Start": 141, "Tick End": 144}, {"Task": "Idle Task", "Tick Start": 144, "Tick End": 149}, {"Task": "Task 1", "Tick Start": 149, "Tick End": 151}, {"Task": "Task 2", "Tick Start": 151, "Tick End": 154}, {"Task": "Idle Task", "Tick Start": 154, "Tick End": 159}, {"Task": "Task 1", "Tick Start": 159, "Tick End": 161}, {"Task": "Task 2", "Tick Start": 161, "Tick End": 164}, {"Task": "Idle Task", "Tick Start": 164, "Tick End": 169}, {"Task": "Task 1", "Tick Start": 169, "Tick End": 171}, {"Task": "Task 2", "Tick Start": 171, "Tick End": 174}, {"Task": "Idle Task", "Tick Start": 174, "Tick End": 179}, {"Task": "Task 1", "Tick Start": 179, "Tick End": 181}, {"Task": "Task 2", "Tick Start": 181, "Tick End": 184}, {"Task": "Idle Task", "Tick Start": 184, "Tick End": 189}, {"Task": "Task 1", "Tick Start": 189, "Tick End": 191}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

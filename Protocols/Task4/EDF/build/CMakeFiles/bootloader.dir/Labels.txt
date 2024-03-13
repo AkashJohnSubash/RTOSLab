@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/CMakeFiles/bootloader
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/CMakeFiles/bootloader.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/CMakeFiles/bootloader-complete.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

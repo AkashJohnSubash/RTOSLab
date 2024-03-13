@@ -1,0 +1,135 @@
+ (42) boo��� Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Labe�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7056
+load:0x40078000,len:15396
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3660
+entry 0x40080620
+[0;32mI (31) boot: ESP-IDF v5.1-dev-4051-g4f0769d2ed-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jul 19 2023 17:21:40[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=08b6ch ( 35692) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=00018b94 vaddr=3ffb0000 size=0166ch (  5740) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a208 vaddr=40080000 size=05e10h ( 24080) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136ach ( 79532) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000336d4 vaddr=40085e10 size=05090h ( 20624) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (187) cpu_start: Pro cpu up.[0m
+[0;32mI (187) cpu_start: Single core mode[0m
+[0;32mI (197) cpu_start: Pro cpu start user code[0m
+[0;32mI (197) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (197) cpu_start: Application information:[0m
+[0;32mI (202) cpu_start: Project name:     EDF[0m
+[0;32mI (207) cpu_start: App version:      f3cfaa7-dirty[0m
+[0;32mI (212) cpu_start: Compile time:     Jul 19 2023 17:21:34[0m
+[0;32mI (218) cpu_start: ELF file SHA256:  ab32290a9efba480...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.1-dev-4051-g4f0769d2ed-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (241) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB2160 len 0002DEA0 (183 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (278) heap_init: At 4008AEA0 len 00015160 (84 KiB): IRAM[0m
+[0;32mI (284) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (295) spi_flash: flash io: dio[0m
+[0;33mW (299) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (312) cpu_start: Starting scheduler on PRO CPU.[0m
+
+[INFO] Application entry point found
+
+[DEBUG] EDF Utilization factors Up 0.750000, Us 0.250000
+[DEBUG] EDF scheduler started
+Created TaskNum. 5 with absDeadline 50 and priority 19
+
+Created TaskNum. 7 with absDeadline 60 and priority 18
+
+Created TaskNum. 6 with absDeadline 80 and priority 17
+
+ [DEBUG] Metadata start
+ [DEBUG] Task Start Time Us : 53417
+ [DEBUG] System Start Time Us : 0
+ Periodic Task : 5, arrival : 0, phase : 100, wcet : 100, deadline : 400
+ Periodic Task : 6, arrival : 0, phase : 0, wcet : 200, deadline : 800
+ Periodic Task : 7, arrival : 0, phase : 200, wcet : 100, deadline : 400
+[DEBUG] Metadata end
+********
+
+[INFO] Schedule Data Gathered. Printing data......
+
+Event No: 0, Task No: 0, Entry at: 27186 Us, Exit at: 27204 Us. Overflow at 0 Us
+Event No: 1, Task No: 0, Entry at: 27215 Us, Exit at: 27232 Us. Overflow at 0 Us
+Event No: 2, Task No: 0, Entry at: 27236 Us, Exit at: 53357 Us. Overflow at 0 Us
+Event No: 3, Task No: 5, Entry at: 53362 Us, Exit at: 53386 Us. Overflow at 0 Us
+Event No: 4, Task No: 7, Entry at: 53390 Us, Exit at: 53406 Us. Overflow at 0 Us
+Event No: 5, Task No: 6, Entry at: 53411 Us, Exit at: 147200 Us. Overflow at 0 Us
+Event No: 6, Task No: 5, Entry at: 147205 Us, Exit at: 247254 Us. Overflow at 0 Us
+Event No: 7, Task No: 7, Entry at: 247258 Us, Exit at: 247269 Us. Overflow at 0 Us
+Event No: 8, Task No: 7, Entry at: 247274 Us, Exit at: 347322 Us. Overflow at 0 Us
+Event No: 9, Task No: 6, Entry at: 347327 Us, Exit at: 347337 Us. Overflow at 0 Us
+Event No: 10, Task No: 6, Entry at: 347342 Us, Exit at: 453376 Us. Overflow at 0 Us
+Event No: 11, Task No: 0, Entry at: 453381 Us, Exit at: 453392 Us. Overflow at 0 Us
+Event No: 12, Task No: 0, Entry at: 453397 Us, Exit at: 547200 Us. Overflow at 0 Us
+Event No: 13, Task No: 5, Entry at: 547205 Us, Exit at: 647252 Us. Overflow at 0 Us
+Event No: 14, Task No: 7, Entry at: 647257 Us, Exit at: 647267 Us. Overflow at 0 Us
+Event No: 15, Task No: 7, Entry at: 647272 Us, Exit at: 747319 Us. Overflow at 0 Us
+Event No: 16, Task No: 0, Entry at: 747324 Us, Exit at: 747334 Us. Overflow at 0 Us
+Event No: 17, Task No: 0, Entry at: 747339 Us, Exit at: 847200 Us. Overflow at 0 Us
+Event No: 18, Task No: 6, Entry at: 847205 Us, Exit at: 947200 Us. Overflow at 0 Us
+Event No: 19, Task No: 5, Entry at: 947205 Us, Exit at: 1047254 Us. Overflow at 0 Us
+Event No: 20, Task No: 7, Entry at: 1047258 Us, Exit at: 1047269 Us. Overflow at 0 Us
+Event No: 21, Task No: 7, Entry at: 1047274 Us, Exit at: 1147322 Us. Overflow at 0 Us
+Event No: 22, Task No: 6, Entry at: 1147326 Us, Exit at: 1147337 Us. Overflow at 0 Us
+Event No: 23, Task No: 6, Entry at: 1147342 Us, Exit at: 1247376 Us. Overflow at 0 Us
+Event No: 24, Task No: 0, Entry at: 1247380 Us, Exit at: 1247391 Us. Overflow at 0 Us
+Event No: 25, Task No: 0, Entry at: 1247396 Us, Exit at: 1347200 Us. Overflow at 0 Us
+Event No: 26, Task No: 5, Entry at: 1347205 Us, Exit at: 1447252 Us. Overflow at 0 Us
+Event No: 27, Task No: 7, Entry at: 1447257 Us, Exit at: 1447267 Us. Overflow at 0 Us
+Event No: 28, Task No: 7, Entry at: 1447272 Us, Exit at: 1547319 Us. Overflow at 0 Us
+Event No: 29, Task No: 0, Entry at: 1547324 Us, Exit at: 1547334 Us. Overflow at 0 Us
+Event No: 30, Task No: 0, Entry at: 1547339 Us, Exit at: 1647200 Us. Overflow at 0 Us
+Event No: 31, Task No: 6, Entry at: 1647205 Us, Exit at: 1747200 Us. Overflow at 0 Us
+Event No: 32, Task No: 5, Entry at: 1747205 Us, Exit at: 1847254 Us. Overflow at 0 Us
+Event No: 33, Task No: 7, Entry at: 1847258 Us, Exit at: 1847269 Us. Overflow at 0 Us
+Event No: 34, Task No: 7, Entry at: 1847274 Us, Exit at: 1947322 Us. Overflow at 0 Us
+Event No: 35, Task No: 6, Entry at: 1947326 Us, Exit at: 1947337 Us. Overflow at 0 Us
+Event No: 36, Task No: 6, Entry at: 1947342 Us, Exit at: 2047376 Us. Overflow at 0 Us
+Event No: 37, Task No: 0, Entry at: 2047380 Us, Exit at: 2047391 Us. Overflow at 0 Us
+Event No: 38, Task No: 0, Entry at: 2047396 Us, Exit at: 2147200 Us. Overflow at 0 Us
+Event No: 39, Task No: 5, Entry at: 2147205 Us, Exit at: 2247252 Us. Overflow at 0 Us
+Event No: 40, Task No: 7, Entry at: 2247257 Us, Exit at: 2247267 Us. Overflow at 0 Us
+Event No: 41, Task No: 7, Entry at: 2247272 Us, Exit at: 2347319 Us. Overflow at 0 Us
+Event No: 42, Task No: 0, Entry at: 2347324 Us, Exit at: 2347334 Us. Overflow at 0 Us
+Event No: 43, Task No: 0, Entry at: 2347339 Us, Exit at: 2447200 Us. Overflow at 0 Us
+Event No: 44, Task No: 6, Entry at: 2447205 Us, Exit at: 2547200 Us. Overflow at 0 Us
+Event No: 45, Task No: 5, Entry at: 2547205 Us, Exit at: 2647254 Us. Overflow at 0 Us
+Event No: 46, Task No: 7, Entry at: 2647258 Us, Exit at: 2647269 Us. Overflow at 0 Us
+Event No: 47, Task No: 7, Entry at: 2647274 Us, Exit at: 2747322 Us. Overflow at 0 Us
+Event No: 48, Task No: 6, Entry at: 2747326 Us, Exit at: 2747337 Us. Overflow at 0 Us
+Event No: 49, Task No: 6, Entry at: 2747342 Us, Exit at: 2847376 Us. Overflow at 0 Us
+[INFO] Schedule printed!!!
+
+Executing action: monitor
+Running idf_monitor in directory /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF
+Executing "/Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python /Users/akashjohnsubash/esp/esp-idf/tools/idf_monitor.py -p /dev/tty.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/akashjohnsubash/Uni/RTOSlab_WS2022/Protocols/Task4/EDF/build/EDF.elf -m '/Users/akashjohnsubash/.espressif/python_env/idf5.1_py3.8_env/bin/python' '/Users/akashjohnsubash/esp/esp-idf/tools/idf.py' '-p' '/dev/tty.usbserial-0001'"...
