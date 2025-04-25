@@ -48,7 +48,7 @@
 		\item[$\bullet$] Task number (${i}$)\\
 		\item[$\bullet$] Task function ($\tau_{i}$)\\
 	\end{itemize}\\
-		
+
 	\hfill\break
 	and in AperiodicTaskArray :\\
 	\begin{itemize}
@@ -58,7 +58,7 @@
 		\item[$\bullet$] Task function ($J_{i}$)\\
 		\item[$\bullet$] Aperiodicity flag\\
 	\end{itemize}
-	} %end footnote size	
+	} %end footnote size
 \end{frame}
 
 % EDF API
@@ -67,7 +67,7 @@
 		 EDF Option 1 using trace APIs and the inbuilt priority based scheduler of $FreeRTOS$ is implemented here based on [1].
 		 Periodic tasks priorities are updated just prior to task switching via the $traceTASK\_SWITCHED\_OUT()$ macro [2]. 
 		 Here, the TCBs stored in the doubly linked lists are sorted implictly by using the APIs from $list.h$
-		 
+
 		 \hfill\break
 		 Aperiodic tasks are also scheduled by EDF by using a Total Bandwidth Server (TBS) [3], 
 		 which assigns fictitios deadlines to them based on the server Utilitzation factor $U_{s}$, and arrival times $a_{i}$. 
